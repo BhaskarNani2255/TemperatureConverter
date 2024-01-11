@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&family=Roboto:wght@300;700&family=Sassy+Frass&display=swap');
+ /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sassy Frass', cursive; */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+}
+.container
+{
+    width: 20.5rem;
+    height: 21rem;
+    background-color: white;
+    box-shadow:0 0 15px gray;
+    /* border: 1px solid black; */
+    border-radius: 19px;
+    padding: 2rem;
+}
+
+.container-header-section
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.time
+{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+.container-header-section .logos
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.86rem;
+}
+
+.chs-logos
+{
+    font-size: 19px;
+}
+
+
+.heading
+{
+    font-family: system-ui;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+
+.degree--Type
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.degree,
+.type,
+.result{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    color: rgb(128, 126, 126);
+}
+
+.degree-selection,
+.type-selection,
+.result-selection
+{
+width: 8rem;
+border: none;
+border-bottom: 1px solid gray;
+outline: none;
+padding: 5px;
+font-size: 1.2rem;
+font-weight: bold;
+font-size: 1rem;
+}
+
+.type-selection
+{
+    width: 10rem;
+}
+
+
+.options
+{
+    font-size: 1rem;
+
+}
+.result
+{
+    margin-top: 2rem;
+}
+
+.result-selection
+{
+    width: 100%;
+}
+
+.convert-btn
+{
+    background: #007AFF;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 12px 15px;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.convert-btn:hover
+{
+    box-shadow:0 0 15px black;
+}
